@@ -1,0 +1,70 @@
+@import url(https://fonts.google.com/specimen/Poppins?preview.lang=es_Latn);
+@import url(https://fonts.google.com/specimen/Roboto+Slab);
+
+
+@property --color1 {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: maroon;
+}
+
+@property --color2 {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: mistyrose;
+
+*{
+    margin: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+}
+
+body {
+    font-family: 'Poppins?preview';
+    background-color: var(--color2)
+}
+
+header {
+    background-color: var(--color2);
+    color: var(--color1);
+    border: solid 2px maroon;
+    font-family: 'Roboto', serif;
+    text-align: center;
+    padding: 30px;
+}
+
+footer{
+    background-color: var(--color1)
+    color: var(--color2)
+    font-family: 'Roboto', serif;
+    text-align: center;
+    padding: 30px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+a {
+    color: maroon;
+}
+
+li{
+    list-style-type: none;
+    display: incline;
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    font-family: 'Poppins';
+    display: block;
+    background-color: var(--color1)
+    margin: 10px;
+    padding: 6 px;
+    text-align: left;
+}
