@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f1dc;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2, h3, .button {
+    font-family: 'Archivo Black', Impact, sans-serif;
+}
+
+.script {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    display: block;
+    text-transform: none;
+}
+
+p {
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #5b7be8;
+    padding: 12px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#logo-nav {
+    height: 52px;
+    background-color: #bfd7fa;
+    border-radius: 8px;
+}
+
+#menu {
+    margin-left: 60px;
+}
+
+.navbar-item {
+    color: #f8f1dc;
+    text-decoration: none;
+    margin: 0 22px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-item:hover {
+    color: #b5ebc4;
+    font-weight: bold;
+}
+
+
+.button {
+    padding: 14px 22px;
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #3f5a3c;
+}
+
+.button.crema {
+    background-color: #f8f1dc;
+    color: #5b7be8;
+}
+
+.button.menta {
+    background-color: #b5ebc4;
+}
+
+.button.rosa {
+    background-color: #f7b9d2;
+    color: #55292a;
+}
+
+.button:hover {
+    background-color: #55292a;
+    color: #f8f1dc;
+    cursor: pointer;
+}
+
+.sticker {
+    position: absolute;
+    width: 150px;
+    transform: rotate(-12deg);
+}
+
+h2 {
+    font-size: 42px;
+    line-height: 1.15;
+}
+
+footer {
+    background-color: #f8f1dc;
+    padding: 70px 80px 30px;
+}
+
+footer table {
+    width: 100%;
+}
+
+footer td {
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+#footer-logo {
+    width: 38%;
+}
+
+#footer-logo img {
+    width: 300px;
+    max-width: 100%;
+}
+
+footer h3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    color: #5b7be8;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+footer a {
+    display: block;
+    color: #55292a;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+footer a:hover {
+    color: #f0735f;
+}
+
+#frase {
+    text-align: center;
+    margin-top: 50px;
+    color: #3f5a3c;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+
+@media (max-width: 850px) {
+    nav {
+        flex-direction: column;
+        padding: 14px;
+    }
+
+    #menu {
+        margin: 10px 0 0;
+        text-align: center;
+    }
+
+    .navbar-item {
+        margin: 0 8px;
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    footer {
+        padding: 50px 24px 24px;
+    }
+
+    footer table, footer tr, footer td {
+        display: block;
+        width: 100%;
+    }
+
+    footer td {
+        margin-bottom: 30px;
+    }
+
+}
+
+.script-inline {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    text-transform: none;
+    color: #5b7be8;
+}
+
+button.button {
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.button.verde {
+    background-color: #3f5a3c;
+    color: #f8f1dc;
+}
+
+.button.verde:hover {
+    background-color: #f8f1dc;
+    color: #3f5a3c;
+}
+
+#hero-contacto {
+    background-color: #f7b9d2;
+    text-align: center;
+    padding: 90px 80px 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.etiqueta {
+    display: inline-block;
+    font-family: 'Archivo Black', Impact, sans-serif;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #3f5a3c;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 2;
+}
+
+#hero-contacto h1 {
+    font-size: 54px;
+    line-height: 1.15;
+    color: #3f5a3c;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+#hero-contacto .script-inline {
+    font-size: 1.15em;
+    display: block;
+}
+
+#hero-contacto p {
+    max-width: 520px;
+    margin: 24px auto 0;
+    color: #5b7be8;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+
+#sticker-c {
+    right: 12%;
+    top: 50px;
+    width: 130px;
+}
+
+.seccion-contacto {
+    padding: 100px 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.seccion-contacto h2 {
+    color: #3f5a3c;
+}
+
+.seccion-contacto h2 .script-inline {
+    display: block;
+    font-size: 1.15em;
+}
+
+.texto {
+    margin-top: 20px;
+    max-width: 440px;
+    color: #55292a;
+}
+
+.dos-columnas {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.columna-texto {
+    width: 42%;
+}
+
+.columna-caja {
+    width: 58%;
+}
+
+
+#formulario {
+    background-image: url(Images/background2.jpg);
+}
+
+#formulario h2 {
+    font-size: 60px;
+    line-height: 1.1;
+}
+
+#formulario .script-inline {
+    font-size: 1em;
+}
+
+#formulario .texto {
+    margin-bottom: 10px;
+}
+
+#panel-formulario {
+    background-color: #f7b9d2;
+    padding: 40px 36px 28px;
+    border-radius: 48px;
+    box-shadow: 16px 16px 0 #3f5a3c;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3f5a3c;
+    margin: 0 0 8px 8px;
+}
+
+.campo input {
+    width: 100%;
+    height: 44px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f8f1dc;
+    color: #3f5a3c;
+    font-size: 14px;
+    font-family: inherit;
+    pointer-events: none;
+}
+
+#ubicacion {
+    background-color: #b5ebc4;
+}
+
+.mapa {
+    width: 55%;
+    height: 380px;
+    background-image: url(Images/Mapa.png);
+    border-radius: 6px;
+    box-shadow: -16px 16px 0 #3f5a3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Archivo Black', Impact, sans-serif;
+    letter-spacing: 2px;
+    color: #5b7be8;
+}
+
+.dato {
+    margin-top: 20px;
+    color: #3f5a3c;
+    font-weight: bold;
+}
+
+.dato strong {
+    display: block;
+    font-family: 'Archivo Black', Impact, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #55292a;
+    margin-bottom: 4px;
+}
+
+#ubicacion .button {
+    margin-top: 28px;
+}
+
+/* CONTACTO: HORARIOS */
+#horarios {
+    background-color: #f7b9d2;
+}
+
+#horarios .texto {
+    color: #55292a;
+}
+
+.tarjeta-horarios {
+    background-color: #f8f1dc;
+    border-radius: 6px;
+    padding: 16px 36px;
+    box-shadow: -16px 16px 0 #55292a;
+}
+
+.tarjeta-horarios table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tarjeta-horarios td {
+    padding: 22px 0;
+    border-bottom: 1px solid #f7b9d2;
+    color: #3f5a3c;
+    font-weight: bold;
+}
+
+.tarjeta-horarios td:first-child {
+    font-family: 'Archivo Black', Impact, sans-serif;
+    font-weight: normal;
+}
+
+.tarjeta-horarios td:last-child {
+    text-align: right;
+    color: #55292a;
+}
+
+.tarjeta-horarios tr:last-child td {
+    border-bottom: none;
+}
+
+/* CONTACTO: DATOS */
+#contacto-datos {
+    background-color: #55292a;
+    text-align: center;
+}
+
+#contacto-datos h2 {
+    color: #b5ebc4;
+}
+
+#contacto-datos .script-inline {
+    color: #f7b9d2;
+}
+
+#tarjetas-contacto {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.dato-card {
+    flex: 1;
+    padding: 36px;
+    border-radius: 18px;
+    color: #3f5a3c;
+}
+
+.dato-card.azul {
+    background-color: #bfd7fa;
+}
+
+.dato-card.menta {
+    background-color: #b5ebc4;
+}
+
+.dato-card.rosa {
+    background-color: #f7b9d2;
+}
+
+.dato-card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.dato-card p {
+    font-weight: bold;
+    min-height: 52px;
+}
+
+
+
+@media (max-width: 850px) {
+    #hero-contacto {
+        padding: 60px 24px 70px;
+    }
+
+    #hero-contacto h1 {
+        font-size: 34px;
+    }
+
+    #sticker-c {
+        width: 90px;
+        right: 6%;
+        top: 20px;
+    }
+
+    .seccion-contacto {
+        padding: 60px 24px;
+    }
+
+    .dos-columnas {
+        flex-direction: column;
+        gap: 40px;
+        align-items: stretch;
+    }
+
+    .columna-texto, .columna-caja, .mapa {
+        width: 100%;
+    }
+
+    #panel-formulario {
+        padding: 28px 22px 16px;
+        border-radius: 32px;
+        box-shadow: 10px 10px 0 #3f5a3c;
+    }
+
+    #formulario h2 {
+        font-size: 40px;
+    }
+
+    .mapa {
+        height: 260px;
+    }
+
+    .tarjeta-horarios {
+        padding: 8px 22px;
+    }
+
+    #tarjetas-contacto {
+        flex-direction: column;
+    }
+
+}

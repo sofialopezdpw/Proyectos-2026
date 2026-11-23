@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto | Patitas</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Contacta a Patitas: formulario, ubicación, horarios y datos de contacto.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pacifico&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheetcontacto.css">
+    </head>
+    <body>
+        <main>
+            <nav>
+                <a href="index.html"><img src="Images/Logo patitas 1.png" id="logo-nav" alt="Patitas"></a>
+                <div id="menu">
+                    <a href="index.html" class="navbar-item">Inicio</a>
+                    <a href="nosotros.html" class="navbar-item">Nosotros</a>
+                    <a href="adopta.html" class="navbar-item">Adopta</a>
+                    <a href="contacto.html" class="navbar-item">Contacto</a>
+                </div>
+            </nav>
+            <header id="hero-contacto">
+                <img src="Images/Sticker patitas.png" class="sticker" id="sticker-c" alt="Sello Patitas">
+                <span class="etiqueta">CONTACTO</span>
+                <h1>ESTAMOS AQUÍ <span class="script-inline">para ayudarte</span></h1>
+                <p>Escríbenos, visítanos o llámanos. Con gusto resolvemos tus dudas sobre la adopción.</p>
+            </header>
+            <section id="formulario" class="seccion-contacto">
+                <div class="dos-columnas">
+                    <div class="columna-texto">
+                        <h2>CUÉNTANOS <span class="script-inline">sobre ti.</span></h2>
+                        <p class="texto">El primer paso para encontrar a tu compañero puede comenzar aquí.</p>
+                        <button type="button" class="button verde">ENVIAR SOLICITUD</button>
+                    </div>
+                    <div class="columna-caja">
+                        <div id="panel-formulario">
+                            <div class="campo">
+                                <label for="c-nombre">Nombre Completo</label>
+                                <input type="text" id="c-nombre" readonly tabindex="-1">
+                            </div>
+                            <div class="campo">
+                                <label for="c-correo">Correo Electrónico</label>
+                                <input type="text" id="c-correo" readonly tabindex="-1">
+                            </div>
+                            <div class="campo">
+                                <label for="c-telefono">Teléfono</label>
+                                <input type="text" id="c-telefono" readonly tabindex="-1">
+                            </div>
+                            <div class="campo">
+                                <label for="c-mascota">¿Qué mascota te interesa?</label>
+                                <input type="text" id="c-mascota" readonly tabindex="-1">
+                            </div>
+                            <div class="campo">
+                                <label for="c-sobre-ti">Cuéntanos un poco sobre ti</label>
+                                <input type="text" id="c-sobre-ti" readonly tabindex="-1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="ubicacion" class="seccion-contacto">
+                <div class="dos-columnas">
+                    <div class="mapa"></div>
+                    <div class="columna-texto">
+                        <h2>ENCUÉNTRANOS <span class="script-inline">cerca de ti</span></h2>
+                        <p class="dato"><strong>DIRECCIÓN</strong>Quinta Feliz 18, Las Quintas, 83240 Hermosillo, Son.</p>
+                        <p class="dato"><strong>CIUDAD</strong>Hermosillo, Sonora</p>
+                        <button type="button" class="button verde">CÓMO LLEGAR</button>
+                    </div>
+                </div>
+            </section>
+            <section id="horarios" class="seccion-contacto">
+                <div class="dos-columnas">
+                    <div class="columna-texto">
+                        <h2>NUESTROS <span class="script-inline">horarios</span></h2>
+                        <p class="texto">Te esperamos para conocer a nuestros perros y gatos. Horarios de ejemplo.</p>
+                    </div>
+                    <div class="columna-caja">
+                        <div class="tarjeta-horarios">
+                            <table>
+                                <tr>
+                                    <td>Lunes a viernes</td>
+                                    <td>9:00 AM - 6 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sábados</td>
+                                    <td>11 AM - 5 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Domingos</td>
+                                    <td>11 AM - 3 AM</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contacto-datos" class="seccion-contacto">
+                <h2>HABLEMOS <span class="script-inline">por donde prefieras</span></h2>
+                <div id="tarjetas-contacto">
+                    <div class="dato-card azul">
+                        <h3>TELÉFONO</h3>
+                        <p>(662) 359 1578</p>
+                        <button type="button" class="button verde">LLÁMANOS</button>
+                    </div>
+                    <div class="dato-card menta">
+                        <h3>CORREO</h3>
+                        <p>Patitas@hotmail.com</p>
+                        <button type="button" class="button verde">ESCRÍBENOS</button>
+                    </div>
+                    <div class="dato-card rosa">
+                        <h3>REDES</h3>
+                        <p>@patitas en Instagram, Facebook y TikTok</p>
+                        <button type="button" class="button verde">SÍGUENOS</button>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <table>
+                    <tr>
+                        <td id="footer-logo"><img src="Images/Logo patitas 1.png" alt="Patitas"></td>
+                        <td>
+                            <h3>navegación</h3>
+                            <a href="index.html">Inicio</a>
+                            <a href="nosotros.html">Nosotros</a>
+                            <a href="adopta.html">Adopta</a>
+                            <a href="contacto.html">Contacto</a>
+                        </td>
+                        <td>
+                            <h3>información</h3>
+                            <a href="adopta.html#proceso">Cómo adoptar</a>
+                            <a href="#">Requisitos</a>
+                        </td>
+                        <td>
+                            <h3>síguenos</h3>
+                            <a href="https://www.instagram.com/">Instagram</a>
+                            <a href="https://www.facebook.com/">Facebook</a>
+                            <a href="https://www.tiktok.com/">TikTok</a>
+                        </td>
+                    </tr>
+                </table>
+                <p id="frase">Cada patita merece un lugar al que llamar hogar.</p>
+            </footer>
+
+        </main>
+    </body>
+</html>
